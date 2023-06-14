@@ -7,17 +7,17 @@ const SocialMedia = () => {
     return(
         <div className="social-media">
             <div className="logo-item">
-                <a href='/https://twitter.com/kaysam_s' target='_blank'>
+                <a href='https://twitter.com/kaysam_s' target='_blank' rel="noreferrer">
                     <img src={twitter} alt="twitter logo redirects to my page" className='logo'/>
                 </a>
             </div>
             <div className="logo-item">
-                <a href="/https://www.linkedin.com/in/smcode-572330230/" target='_blank'>
+                <a href="https://www.linkedin.com/in/smcode-572330230/" target='_blank' rel="noreferrer">
                     <img src={linkedin} alt="linkedin logo redirects to my page" className='logo'/>
                 </a>
             </div>
             <div className="logo-item">
-                <a href="www.instagram.com/kaysam_s" target='_blank'>
+                <a href="https://www.instagram.com/kaysam_s" target='_blank' rel="noreferrer">
                     <img src={instagram} alt="instagram logo redirects to my page" className='logo'/>
                 </a>
             </div>
