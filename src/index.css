@@ -5,6 +5,7 @@
 }
 body{
   font-family: 'Times New Roman', Times, serif;
+  overflow-y: hidden;
 }
 .homepage{
   background-image: url(Images/background.jpg);
@@ -22,8 +23,9 @@ h1{
 }
 .speech{
   max-width: 800px;
-  max-height: 500px;
-  height: 200px;
+  min-height: 200px;
+  max-height: 600px;
+  overflow-y: auto;
   width: 90%;
   background-color: #fff;
   border-radius: 30px;
